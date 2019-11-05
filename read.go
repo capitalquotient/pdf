@@ -183,6 +183,8 @@ func NewReaderEncrypted(f io.ReaderAt, size int64, pw func() string) (*Reader, e
 		}
 		if r.initEncrypt(next) == nil {
 			return r, nil
+		}else{
+			break
 		}
 	}
 	return nil, err
