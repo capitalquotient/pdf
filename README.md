@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ledongthuc/pdf"
+	"github.com/chandrashekar3792/pdf"
 )
 
 func main() {
@@ -91,7 +91,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dcu/pdf"
+	"github.com/chandrashekar3792/pdf"
 )
 
 func main() {
